@@ -1,4 +1,3 @@
 # DSA-repo-python
-A repository for complete learning of all the data structures and algorithms using Python Programming Language.
-Data Structures and Algorithms are an important tool for any level of Software Developer.
-
+A repository for complete learning of all the Data Structures and Algorithms using Python Programming Language.
+Both Practical(Code Implementation) and Theoretical Knowledge(Wiki) of Data Strctures can be gained through this repository.
