@@ -1,3 +1,5 @@
+#Use the Linked_List_Node.py file for the Node class.
+
 def take_input():
   input_list = [int(ele) for ele in input().split()]   #Take input in form of a Array/List
   head = None                                          
