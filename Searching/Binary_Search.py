@@ -16,6 +16,7 @@ def binary_search_iterative(a, low, high, num):
     
     return -1                      #-1 means element is not found in the given array/list.
 
+#Recursive Approach
 def binary_search_recursive(a, low, high, num):
     if low > high:                #Base Case 
         return -1                 #-1 means element is not found in the given array/list.
