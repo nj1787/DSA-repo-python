@@ -11,7 +11,7 @@ def Linear_Search_Iterative(arr, ele):
 
 #Recursive
 def Linear_Search_Recursive(arr, ele):
-    if len(arr) == 0:           #Base Case
+    if len(arr) == 0:                                    #Base Case
         return -1
     small_output = Linear_Search_Recursive(arr[1:], ele) #Recursive Call. small output will have index of element 1 less than actual index.
     if small_output == -1:                               #Condition for element not found in smaller list.
