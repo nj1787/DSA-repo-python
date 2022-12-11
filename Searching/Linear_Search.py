@@ -22,6 +22,8 @@ def Linear_Search_Recursive(arr, ele):
     else:
         return 1 + small_output                          #We add 1 to the small output so that we get actual index of the element as size of the list was reduced.    
 
+
+#Main
 array = [90, 12, 16, 71, 82, 24, 88, 67, 52, 49]
 print(array)
 result1 = Linear_Search_Iterative(array, 52)
@@ -29,6 +31,13 @@ print(result1)
 print()
 result2 = Linear_Search_Iterative(array, 50)
 print(result2)
+print()
+result3 = Linear_Search_Recursive(array, 24)
+print(result3)
+print()
+result4 = Linear_Search_Recursive(array, 89)
+print(result4)
+
 
 
 -------------------------------------------------------------Sample I/O-----------------------------------------------------------------------------------
